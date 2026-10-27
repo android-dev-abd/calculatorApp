@@ -8,12 +8,17 @@ namespace calculatorApp
 {
     internal class Program
     {
+        static int Add(int a, int b)
+        {
+            return a + b;
+        }
         static int Subtract(int a, int b)
         {
             return a - b;
         }
         static void Main(string[] args)
         {
+            Console.WriteLine($"Adding 5 + 3 gives {Add(5, 3)}");
             Console.WriteLine($"Subtracting 5 - 3 gives {Subtract(5, 3)}");
         }
     }
