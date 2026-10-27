@@ -16,6 +16,10 @@ namespace calculatorApp
         {
             return a - b;
         }
+        static double Subtract(double a, double b)
+        {
+            return a - b;
+        }
         static void Main(string[] args)
         {
             Console.WriteLine($"Adding 5 + 3 gives {Add(5, 3)}");
